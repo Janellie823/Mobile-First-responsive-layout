@@ -1,2 +1,2 @@
-# Mobile-First-resposive-layout
+# Mobile-First-responsive-layout
  Techdegree ProjectUnit 2
