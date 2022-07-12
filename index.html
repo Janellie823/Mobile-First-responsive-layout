@@ -9,7 +9,7 @@
     <link href="css/styles.css" rel="stylesheet">
   <title>Navigation Position Change</title>
   <nav>
-    <h1><a href="#">Janellie M.</a></h1>
+    <h1 class="main-heading"><a href="#">Janellie M.</a></h1>
     <ul class="top-nav">
       <li><a href="#">home</a></li>
       <li><a href="#portfolio">portfolio</a></li>
@@ -19,25 +19,21 @@
   
 </head>
 <body>
-    <header>
-        <img src="images/responsive-layout-profile.png" alt="profile picture">
+  <div class="wrapper">
+    <header class="container">
+        <img src="images/responsive-layout-profile.png" alt="profile picture"> <br>
         <p>Hi! I'm a front-end developer who loves responsive design and css. 
         I recently finished a degree in front-end web development at TreeHouse and am excited to put all my skills to use</p>
     </header>
     <main>
 
     <h2>Portfolio</h2>
+
 <div class="container">
     <div class="col box-1">
             <img src="images/portfolio-1.png" alt="chart">
             <h2>Marketing Page</h2>
             <p>This project shows the front-end page of a marketing website meant for a specific business I'm interested in.</p>
-    </div>
-      
-    <div class="col box-2">
-        <img src="images/portfolio-1.png" alt="chart">
-        <h2>Marketing Page</h2>
-        <p>This project shows the front-end page of a marketing website meant for a specific business I'm interested in.</p>
     </div>
 
     <div class=" col box-2">
@@ -66,22 +62,27 @@
     <p>Someone can enter in the numbers they want and press the big blue button, and get the result. </p>
 </div>
 </div>
-<div>
+
+<div class="contact">
     <h2>Contact</h2>
     <p>If you're interested in chatting or want more information on what I've been working on, I'd love ot hear from you!</p>
-    <p>Email</p>
-    <p>Phone</p>
+    <p>Phone <a href="tel:+12223334444"></a>+12223334444</p>
+    <p>Email <a href="mailto:janellie123@gmail.com">janellie123@gmail.com</a></p>
+    
 </div>
 </main>
 </body>
+</div>
 <footer>
-    <h2>Janellie M </h2>
+  <div class="bottom-nav">
+    <h2 class="footer-head"> Janellie M </h2>
     <ul class="footer-nav">
       <li class="top"><a href="#top">back to top</a></li>
       <li class="full"><a href="#top">home</a></li>
       <li class="full"><a href="#portfolio">portfolio</a></li>
       <li class="full"><a href="#contact">contact</a></li>
     </ul>
+  </div>
   </footer>
   
 </html>
